@@ -1,21 +1,7 @@
 # IANet: Instance-Aware Feature Learning for Efficient Few-Shot Hyperspectral Image Classification
 
-The source code for our new work on few-shot hyperspectral image classification tasks. The details will be reported after the acceptance.
+The source code for our new work on few-shot hyperspectral image classification tasks, which is currently under review at The Multimedia Systems. Once the paper is published, we will make the code publicly available.
 
-## Datasets
+If you are a reviewer or researcher and need the code to verify the experimental results in our paper, please feel free to contact us via email: yingguo@mail.nwpu.edu.cn.
 
-```
-├── Patch9_TRIAN_META_DATA.pickle
-└── test_datasets
-    ├── PaviaU_data.mat
-    ├── PaviaU_gt.mat
-    ├── Indian_pines_corrected.mat
-    ├── Indian_pines_gt.mat
-    ├── Salinas_corrected.mat
-    ├── Salinas_gt.mat
-    ├── WHU_Hi_HanChuan_gt.mat
-    └── WHU_Hi_HanChuan.mat
-
-```
-1) Run "trainMetaDataProcess.py" to generate the meta-training data "Patch9_TRIAN_META_DATA.pickle". And you can choose to download the meta-training data through Baidu Netdisk (link: https://pan.baidu.com/s/1i6SV57db3k4ErZs0UKyUeA?pwd=iykv)
-2) Run "python IANet.py".
+If our paper or code is helpful to your research, we would greatly appreciate it if you could cite our work. Thank you very much!
